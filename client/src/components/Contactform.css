@@ -1,0 +1,38 @@
+.contact {
+  padding: 40px;
+  background-color: #0a0a1a;
+  color: white;
+}
+.contact h2 {
+  color: #6ec6ff;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+input, textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e1e2e;
+  color: white;
+}
+input:focus, textarea:focus {
+  outline: 2px solid #6ec6ff;
+}
+button {
+  background-color: #6ec6ff;
+  color: black;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.status {
+  margin-top: 10px;
+  color: #88c0d0;
+  font-style: italic;
+}

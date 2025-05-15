@@ -1,0 +1,14 @@
+.education {
+  padding: 40px;
+  background-color: #121223;
+  color: white;
+}
+.education h2 {
+  color: #6ec6ff;
+}
+.edu-card {
+  background-color: #1f1f2f;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}

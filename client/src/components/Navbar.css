@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0f0f1f;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar h1 {
+  color: #6ec6ff;
+}
+.navbar ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+.navbar a:hover {
+  color: #6ec6ff;
+}
